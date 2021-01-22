@@ -31,9 +31,9 @@ The code is built on [DSSLIC](https://github.com/makbari7/DSSLIC) & [PSPNet](htt
 ### Testing Pre-trained Models
 
 <p align='center'>
-  <img src='Figures/teaser1.png' width=300'/>
-  <img src='Figures/teaser2.png' width='300'/>
-  <img src='Figures/teaser3.png' width='300'/>
+  <img src='Figures/teaser1.png' width=400'/>
+  <img src='Figures/teaser2.png' width='400'/>
+  <img src='Figures/teaser3.png' width='400'/>
 </p>
 
 Download pretrained models from https://drive.google.com/drive/folders/1lDUPbsYKiBZnCthhKADqwmo2jvop5avz?usp=sharing and put them into the collated folders.
@@ -49,14 +49,14 @@ Download "FLIF Encoder" from https://github.com/FLIF-hub/FLIF and put all the in
 Then perform the residual and down-sampled version compression by using MATLAB and run ./evaluation code/main.m
 
 <p align='center'>
-  <img src='Figures/Kodak_PSNR.png' width='500'/>
-  <img src='Figures/Kodak_MSSSIM.png' width='500'/>
+  <img src='Figures/Kodak_PSNR.png' width='400'/>
+  <img src='Figures/Kodak_MSSSIM.png' width='400'/>
 </p>
 
 ### Citation
 If you find the code useful in your research, please cite:
-
-  @INPROCEEDINGS{9150905,
+```
+@InProceedings{9150905,
     author={T. M. {Hoang} and J. {Zhou} and Y. {Fan}},
     booktitle={2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},
     title={Image Compression with Encoder-Decoder Matched Semantic Segmentation},
@@ -65,8 +65,8 @@ If you find the code useful in your research, please cite:
     number={},
     pages={619-623},
     doi={10.1109/CVPRW50498.2020.00088}
-  }
-
+}
+```
 ### Contact
 [Trinh Man Hoang](mailto:hoangtrinh1001@gmail.com)
 
