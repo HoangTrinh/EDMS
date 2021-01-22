@@ -32,7 +32,6 @@ The code is built on [DSSLIC](https://github.com/makbari7/DSSLIC) & [PSPNet](htt
 ### Testing Pre-trained Models
 
 <p align='center'>
-  <img src='Figures/teaser1.png' width=400'/>
   <img src='Figures/teaser2.png' width='400'/>
   <img src='Figures/teaser3.png' width='400'/>
 </p>
