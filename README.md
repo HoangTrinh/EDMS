@@ -2,12 +2,12 @@
 [Paper](10.1109/CVPRW50498.2020.00088)
 
 [Trinh Man Hoang](https://www.facebook.com/manhoang.trinh/),
-[Jinjia Zhou](https://www.zhou-lab.info/jinjia-zhou)
-[Yibo Fan]
+[Jinjia Zhou](https://www.zhou-lab.info/jinjia-zhou),
+Yibo Fan.
 
-2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW), Seattle, WA, USA, 2020, pp. 619-623
+2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW), Seattle, WA, USA, 2020, pp. 619-623.
 
-The code is built on [DSSLIC](https://github.com/makbari7/DSSLIC) & [PSPNet](https://github.com/CSAILVision/semantic-segmentation-pytorch)
+The code is built on [DSSLIC](https://github.com/makbari7/DSSLIC) & [PSPNet](https://github.com/CSAILVision/semantic-segmentation-pytorch).
 
 <p align='center'>
   <img src='Figures/Moto.png' width='800'/>
@@ -49,7 +49,7 @@ Perform the residual and down-sampled version compression:
 
 - Download "FLIF Encoder" from https://github.com/FLIF-hub/FLIF and put all the installed binary files in folder **./evaluation code/FLIF-master**
 
-- Then perform the residual and down-sampled version compression by using MATLAB and run >**./evaluation code/main.m**
+- Then perform the residual and down-sampled version compression by using MATLAB and run **./evaluation code/main.m**
 
 <p align='center'>
   <img src='Figures/Kodak_PSNR.png' width='400'/>
