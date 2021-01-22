@@ -5,6 +5,7 @@
 [Jinjia Zhou](https://www.zhou-lab.info/jinjia-zhou)
 
 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW), Seattle, WA, USA, 2020, pp. 619-623
+
 The code is built on [DSSLIC](https://github.com/makbari7/DSSLIC) & [PSPNet](https://github.com/CSAILVision/semantic-segmentation-pytorch)
 
 <p align='center'>
@@ -30,9 +31,9 @@ The code is built on [DSSLIC](https://github.com/makbari7/DSSLIC) & [PSPNet](htt
 ### Testing Pre-trained Models
 
 <p align='center'>
-  <img src='Figures/teaser1.png' width='200'/>
-  <img src='Figures/teaser2.png' width='200'/>
-  <img src='Figures/teaser3.png' width='200'/>
+  <img src='Figures/teaser1.png' width=300'/>
+  <img src='Figures/teaser2.png' width='300'/>
+  <img src='Figures/teaser3.png' width='300'/>
 </p>
 
 Download pretrained models from https://drive.google.com/drive/folders/1lDUPbsYKiBZnCthhKADqwmo2jvop5avz?usp=sharing and put them into the collated folders.
@@ -41,13 +42,15 @@ Perform the encoder-decoder matched compression:
 
     $ python test.py --dataroot </path/to/your/imageFolder/> --label_nc 151 --resize_or_crop none --batchSize 1 --gpu_ids 0 --checkpoints_dir checkpoints/ --results_dir </results/path/> --sMapWeights_path ./checkpoints/SMap_epoch_149.pth --fmt png
 
-Download "Binary BPG distribution for Windows (64 bit only)" from https://bellard.org/bpg and put all the binary files in the folder $./evaluation code/bpg-win64
-Download "FLIF Encoder" from https://github.com/FLIF-hub/FLIF and put all the installed binary files in folder $./evaluation code/FLIF-master
+Download "Binary BPG distribution for Windows (64 bit only)" from https://bellard.org/bpg and put all the binary files in the folder ./evaluation code/bpg-win64
 
-Then perform the residual and down-sampled version compression by using MATLAB and run $./evaluation code/main.m
+Download "FLIF Encoder" from https://github.com/FLIF-hub/FLIF and put all the installed binary files in folder ./evaluation code/FLIF-master
+
+Then perform the residual and down-sampled version compression by using MATLAB and run ./evaluation code/main.m
 
 <p align='center'>
-  <img src='Figures/Kodak_PSNR.png' width='800'/>
+  <img src='Figures/Kodak_PSNR.png' width='500'/>
+  <img src='Figures/Kodak_MSSSIM.png' width='500'/>
 </p>
 
 ### Citation
