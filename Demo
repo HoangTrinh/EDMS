@@ -1,0 +1,1 @@
+python test.py --dataroot ./datasets/Kodak_test/ --label_nc 151 --resize_or_crop none --batchSize 1 --gpu_ids 2 --checkpoints_dir checkpoints/ --results_dir results/KodakT/ --sMapWeights_path ./checkpoints/SMap_epoch_149.pth --fmt png

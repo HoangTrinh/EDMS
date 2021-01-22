@@ -1,0 +1,2 @@
+#Seg_extract
+python3 -u test.py --cfg ./config/ade20k-resnet50dilated-ppm_deepsup.yaml --imgs ./inputs/ups/ --gpu 3 DIR ade20k-resnet50dilated-ppm_deepsup/ TEST.result ./results/ups/ TEST.checkpoint epoch_20.pth
