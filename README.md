@@ -3,6 +3,7 @@
 
 [Trinh Man Hoang](https://www.facebook.com/manhoang.trinh/),
 [Jinjia Zhou](https://www.zhou-lab.info/jinjia-zhou)
+[Yibo Fan]
 
 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW), Seattle, WA, USA, 2020, pp. 619-623
 
@@ -42,11 +43,13 @@ Perform the encoder-decoder matched compression:
 
     $ python test.py --dataroot </path/to/your/imageFolder/> --label_nc 151 --resize_or_crop none --batchSize 1 --gpu_ids 0 --checkpoints_dir checkpoints/ --results_dir </results/path/> --sMapWeights_path ./checkpoints/SMap_epoch_149.pth --fmt png
 
-Download "Binary BPG distribution for Windows (64 bit only)" from https://bellard.org/bpg and put all the binary files in the folder ./evaluation code/bpg-win64
+Perform the residual and down-sampled version compression:
 
-Download "FLIF Encoder" from https://github.com/FLIF-hub/FLIF and put all the installed binary files in folder ./evaluation code/FLIF-master
+- Download "Binary BPG distribution for Windows (64 bit only)" from https://bellard.org/bpg and put all the binary files in the folder **./evaluation code/bpg-win64**
 
-Then perform the residual and down-sampled version compression by using MATLAB and run ./evaluation code/main.m
+- Download "FLIF Encoder" from https://github.com/FLIF-hub/FLIF and put all the installed binary files in folder **./evaluation code/FLIF-master**
+
+- Then perform the residual and down-sampled version compression by using MATLAB and run >**./evaluation code/main.m**
 
 <p align='center'>
   <img src='Figures/Kodak_PSNR.png' width='400'/>
