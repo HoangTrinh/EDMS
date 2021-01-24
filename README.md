@@ -1,5 +1,5 @@
 # Image Compression with Encoder-Decoder Matched Semantic Segmentation
-[Paper](10.1109/CVPRW50498.2020.00088)
+[Paper](https://ieeexplore.ieee.org/document/9150905)
 
 [Trinh Man Hoang](https://www.facebook.com/manhoang.trinh/),
 [Jinjia Zhou](https://www.zhou-lab.info/jinjia-zhou),
