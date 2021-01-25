@@ -46,7 +46,7 @@ visualizer = Visualizer(opt)
 ##load SMapNet for segmentation enhancement, seperated pretrained network
 sMapModel =  SMapNet(1)
 sMapState_dict = sMapModel.state_dict()
-weights =  torch.load(opt.sMapWeights_path)['model_state_dict'] ## add later
+weights =  torch.load(opt.sMapWeights_path,map_location='cpu')['model_state_dict'] ## add later
 sMapModel.load_state_dict(weights)
 sMapModel = sMapModel.to(device)
 sMapModel.eval()
